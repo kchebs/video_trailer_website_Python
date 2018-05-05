@@ -2,6 +2,8 @@ import webbrowser
 
 
 class Video:
+    """ This class provides a way to store movie or TV show information. """
+
     def __init__(self, video_title, start_year, video_type, video_storyline,
                  poster_image, trailer_youtube, imdb_score, rtc_score,
                  rta_score):
