@@ -9,6 +9,7 @@ vvendetta = media.Video("V for Vendetta", 2006, "movie",
                         "https://resizing.flixster.com/3X9tgP8PXWJOPuA3_q3tLm7a8GM=/206x305/v1.bTsxMTE2NjczNDtqOzE3NzY5OzEyMDA7ODAwOzEyMDA",
                         "https://www.youtube.com/watch?v=qxyUl9M_7vc", 8.2, 7.3,
                         9)
+#Maybe remove payitforward
 payitforward = media.Video("Pay it Forward", 2000, "movie", "A young boy "
                                                             "attempts to make "
                                                             "the world a "
@@ -113,8 +114,8 @@ indianajonesark = media.Video("Raiders of the Lost Ark", 1981,
                               "https://www.youtube.com/watch?v=XkkzKHCx154",
                               8.5, 9.4, 9.6)
 
-movies = [vvendetta, payitforward, indianajonesark, aladdin, soundofmusic,
-          dalmations, marypoppins, grease, homealone, lordringstwo,
-          hpotterdhtwo, starwars]
+movies = [payitforward, homealone, grease,  dalmations,
+          vvendetta, soundofmusic, marypoppins, aladdin, indianajonesark,
+          hpotterdhtwo, lordringstwo, starwars]
 
 website_creator.open_movies_page(movies)

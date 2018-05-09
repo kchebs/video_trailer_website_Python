@@ -31,7 +31,7 @@ class Video:
         self.imdb_rating = imdb_score
         self.rtc_rating = rtc_score
         self.rta_rating = rta_score
-        self.average_rating = round((imdb_score + rtc_score + rta_score) / 3, 1)
+        self.average_rating = (imdb_score + rtc_score + rta_score) / 3
 
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
